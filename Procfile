@@ -1,1 +1,1 @@
-worker: python index.js
+worker: python index.py
