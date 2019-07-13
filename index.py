@@ -8,6 +8,7 @@ import tflearn
 import tensorflow
 import random
 import json
+nltk.download('punkt')
 from discord.ext import commands
 from time import sleep
 bot = commands.Bot(command_prefix='>')
