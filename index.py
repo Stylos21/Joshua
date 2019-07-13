@@ -11,6 +11,7 @@ import json
 nltk.download('punkt')
 from discord.ext import commands
 from time import sleep
+import os
 bot = commands.Bot(command_prefix='>')
 
 with open("index.json", 'r') as file:
@@ -130,8 +131,7 @@ async def ping(ctx):
     await ctx.send('pong') 
 
 
-token = process.env.BOTTOKEN
-
+token = os.getenv("BOTTOKEN")
 # @bot.event
 # async def on_message(message):
 #     m = message.content
