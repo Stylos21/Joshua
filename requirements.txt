@@ -2,4 +2,3 @@ nltk
 discord
 tflearn
 tensorflow
-random
