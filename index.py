@@ -7,7 +7,7 @@ import numpy
 import tflearn
 import tensorflow
 import random
-import jspm
+import json
 from discord.ext import commands
 from time import sleep
 bot = commands.Bot(command_prefix='>')
