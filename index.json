@@ -1,0 +1,63 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["Yo!", "Hi!", "Hello there!", "What's poppin?", "G'day", "good day man", "you there?"],
+        "responses": ["what do you want man?", "bro what the heck man", "Sup cuz?", "g'day g'day", "SOFTA GEE NOT A HARDA GEE MAMA MIA!!!"]
+    },
+    {
+        "tag": "bye",
+        "patterns": ["goodbye", "bye bruh", "get the hell outta here!", "bye bro", "Goodbye!", "bye", "Cya!"],
+        "responses": ["nah get outta here", "wassup", "goodbye!", "bye man", "bye", "yo bye man"]
+    },
+   
+    {
+        "tag": "sky-color",
+        "patterns": ["What is the color of the sky?", "what color even is the sky?", "what is the color of the sky bruh"],
+        "responses": ["blue", "the color of the blue.", "its blue", "its DA BLOO"]
+    },
+    {
+        "tag": "songs",
+        "patterns": ["What is the best song?", "What is your favorite song?", "favourite song?"],
+        "responses": ["every song is garbage", "Darude - Sandstorm", "darude sandstorm"]
+    },
+    {
+        "tag": "age",
+        "patterns": ["How old are you?", "What is your age?", "can you tell me ur age?", "what is the age of you", "how many years have you lived?"],
+        "responses": ["6+6+1 is my age.", "13", "I am 13 years old."]
+    },
+    {
+        "tag": "coding",
+        "patterns": ["How long have you been coding?", "when did you start coding?", "when was the day you wrote your first line of code?", "how many years of coding?"],
+        "responses": ["i have been coding since i was about 9 or 10.", "ive been coding since 2016", "why? are you some sort of technical interviewer? next question."]
+    },
+    {
+        "tag": "how are you",
+        "patterns": ["how are you doing?", "how are ya?", "wassup?", "ay cuz how u doing"],
+        "responses": ["im doing exceptionally well, and you?", "im doing pretty a-ok", "goodie", "doin epic"]
+    },
+    {
+        "tag": "im doing good",
+        "patterns": ["im doing good", "same here", "im doing excellente", "im good", "im hella good"],
+        "responses": ["do i care?", "nice to know", "cool", "thats epic"]
+    },
+    {
+        "tag": "language",
+        "patterns": ["do you speak languages", "how many languages can you speak"],
+        "responses": ["i speak: binary, english, javascript, machine code, hexadecimal, and python,", "i know 5 languages.", "yes"]
+    },
+    {
+        "tag": "lol",
+        "patterns": ["lol", "lmao", "LMFAO WTF", "stfu lol"],
+        "responses": ["whats so funny man", "SHUT YOUR MOUTH MAN", "man you think its funny", "youre not cool man stop talking lol", "LMAO IKR OMG LOL"]
+    },
+    {
+        "tag": "insults",
+        "patterns": ["youre dumb", "stupid piece of crap bot", "lol ur dumb", "bruh you look like a toe"],
+        "responses": ["bruh", "is that the best you got?", "wow lol", "thx", "thank you for the compliment"]
+    },
+    {
+        "tag": "idc",
+        "patterns": ["do i care?", "i dont give a crap man", "does my face look i care?", "i dont care"],
+        "responses": ["i think you do tho", "so why are you responding?", "cool", "thats nice", "hmm cool"]
+    }
+]}
