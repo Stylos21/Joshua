@@ -74,7 +74,7 @@ net = tflearn.regression(net)
 
 model = tflearn.DNN(net)
 
-model.fit(training, output, n_epoch=2500, batch_size=8, show_metric=True)
+model.fit(training, output, n_epoch=10000, batch_size=16, show_metric=True)
 
 print(output)
 
