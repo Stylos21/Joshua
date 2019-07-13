@@ -128,7 +128,7 @@ async def ping(ctx):
     await ctx.send('pong') 
 
 
-token = 'NTk5Mjc4ODk0OTg5ODM2Mjk5.XSkMdQ.C3lN9atrSWSXB8ETrRXqZ8E--b4'
+token = process.env.BOTTOKEN
 
 # @bot.event
 # async def on_message(message):
